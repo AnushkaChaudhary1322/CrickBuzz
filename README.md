@@ -4,6 +4,20 @@
 
 ---
 
+## Screen Shot
+
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/home.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/AddTeam1.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/AddTeam2.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/selectTeam.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/scoreBoard1.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/scoreBoard2.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/about.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/contact.png)
+![QuickScore Screenshot](https://crick-buzz-zeta.vercel.app/services.png)
+
+---
+
 ## 🚀 Live Demo
 
 Check out the live deployed app here:  
