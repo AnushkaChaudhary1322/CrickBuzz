@@ -8,6 +8,18 @@ const [team2, setTeam2] = useState("");
 const [openDialog, setOpenDialog] = useState(null);
 const navigate = useNavigate();
 
+const countryDetails = [
+    { name: "India", flag: "https://flagcdn.com/in.svg" },
+    { name: "Australia", flag: "https://flagcdn.com/au.svg" },
+    { name: "England", flag: "https://i.pinimg.com/236x/28/b5/e7/28b5e7bdf60aa8a34fc92efb02f14443.jpg" },
+    { name: "South Africa", flag: "https://flagcdn.com/za.svg" },
+    { name: "Pakistan", flag: "https://flagcdn.com/pk.svg" },
+    { name: "New Zealand", flag: "https://flagcdn.com/nz.svg" },
+    { name: "Bangladesh", flag: "https://flagcdn.com/bd.svg" },
+    { name: "Sri Lanka", flag: "https://flagcdn.com/lk.svg" },
+    { name: "West Indies", flag: "https://flagcdn.com/jm.svg" },
+];
+
 useEffect(() => {
 const teams = {};
 for (let key in localStorage) {
@@ -44,8 +56,9 @@ const handleEdit = (country) => {
 navigate(`/team?edit=${country}`);
 };
 
-const getFlagUrl = (country) => {
-return `https://flagcdn.com/48x36/${country.slice(0, 2).toLowerCase()}.png`;
+const getFlagUrl = (countryName) => {
+    const match = countryDetails.find((c) => c.name === countryName);
+    return match ? match.flag : "";
 };
 
 return (
@@ -92,7 +105,7 @@ return (
         onClick={handleStartMatch}
         className="bg-emerald-600 hover:bg-emerald-700 px-8 py-3 rounded-xl text-lg font-semibold shadow-md"
         >
-        🚀 Start Match
+        Start Match
         </button>
     </div>
     </div>

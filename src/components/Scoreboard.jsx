@@ -264,7 +264,7 @@ const Scoreboard = () => {
         {/* Game Over */}
         {gameOver && (
           <div className="mt-8 text-center text-3xl text-lime-400 font-bold">
-            Game Over 🎉
+            Game Over 
           </div>
         )}
       </div>

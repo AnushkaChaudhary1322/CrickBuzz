@@ -5,13 +5,13 @@ import { useLocation } from "react-router-dom";
 const countryDetails = [
 { name: "India", flag: "https://flagcdn.com/in.svg" },
 { name: "Australia", flag: "https://flagcdn.com/au.svg" },
-{ name: "England", flag: "https://flagcdn.com/gb-eng.svg" },
+{ name: "England", flag: "https://i.pinimg.com/236x/28/b5/e7/28b5e7bdf60aa8a34fc92efb02f14443.jpg" },
 { name: "South Africa", flag: "https://flagcdn.com/za.svg" },
 { name: "Pakistan", flag: "https://flagcdn.com/pk.svg" },
 { name: "New Zealand", flag: "https://flagcdn.com/nz.svg" },
 { name: "Bangladesh", flag: "https://flagcdn.com/bd.svg" },
 { name: "Sri Lanka", flag: "https://flagcdn.com/lk.svg" },
-{ name: "West Indies", flag: "https://flagcdn.com/jm.svg" }, // Jamaica flag as placeholder
+{ name: "West Indies", flag: "https://flagcdn.com/jm.svg" }, 
 ];
 
 const AddTeam = () => {
