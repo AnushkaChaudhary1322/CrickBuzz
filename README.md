@@ -63,4 +63,27 @@ Make sure you have **Node.js** and **npm** installed on your system.
 
 ## Folder structure
 
-<pre> quickscore/ ├── public/ ├── src/ │ ├── assets/ │ ├── components/ │ │ ├── About.jsx │ │ ├── AddTeam.jsx │ │ ├── Contact.jsx │ │ ├── Footer.jsx │ │ ├── Home.jsx │ │ ├── NavBar.jsx │ │ ├── Scoreboard.jsx │ │ ├── SelectTeam.jsx │ │ ├── Services.jsx │ ├── App.css │ ├── App.jsx │ ├── index.css │ ├── main.jsx ├── tailwind.config.js ├── vite.config.js </pre>
+<pre>
+quickscore/
+
+├── public/
+├── src/
+| ├── assets/
+│ ├── components/
+| | ├── About.jsx
+| | ├── AddTeam.jsx
+| | ├── contact.jsx
+| | ├── Footer.jsx
+| | ├── Home.jsx
+| | ├── NavBar.jsx
+| | ├── Scoreboard.jsx
+| | ├── SelectTeam.jsx
+| | ├── Services.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ ├── main.jsx
+├── tailwind.config.js
+├── index.css
+├── vite.config.js
+</pre>
